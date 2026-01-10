@@ -2,57 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DataMart GH</title>
+  <title>Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { margin:0; font-family: Arial, sans-serif; }
-    header { background:#111; color:#fff; padding:20px; text-align:center; }
-    nav { background:#222; padding:10px; text-align:center; }
-    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
-    .hero { padding:50px 20px; text-align:center; }
-    .bundles { max-width:900px; margin:20px auto; }
-    .card { border:1px solid #ddd; padding:20px; margin:15px; border-radius:6px; }
-    footer { background:#111; color:#fff; text-align:center; padding:15px; }
-    .btn { background:#0a7cff; color:#fff; padding:12px 20px; border:none; border-radius:5px; text-decoration:none; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>DataMart GH</h1>
-  <p>Affordable Data Bundles in Ghana</p>
-</header>
+<div class="container">
+  <h2>Welcome Back</h2>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="signup.html">Create Account</a>
-  <a href="login.html">Sign In</a>
-</nav>
+  <form>
+    <input type="email" placeholder="Email Address" required>
+    <input type="password" placeholder="Password" required>
 
-<section class="hero">
-  <h2>Welcome to DataMart</h2>
-  <p>Your trusted data marketplace.</p>
-  <a class="btn" href="signup.html">Get Started</a>
-</section>
+    <button type="submit">Login</button>
+  </form>
 
-<section class="bundles">
-  <div class="card">
-    <h3>MTN Bundles</h3>
-    <p>Fast and affordable MTN data.</p>
-  </div>
-  <div class="card">
-    <h3>AirtelTigo Bundles</h3>
-    <p>Reliable AirtelTigo data.</p>
-  </div>
-  <div class="card">
-    <h3>Telecel Bundles</h3>
-    <p>Best Telecel data deals.</p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 DataMart GH</p>
-</footer>
+  <p>Don’t have an account?
+    <a href="signup.html">Create one</a>
+  </p>
+</div>
 
 </body>
 </html>
