@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMG Biznez Hub - Data Bundles</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #007bff;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    .container {
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .bundle {
+      background: #fff;
+      border-radius: 8px;
+      margin: 15px 0;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .bundle h3 {
+      margin: 0;
+      color: #007bff;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .buy-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AMG Biznez Hub — Data Packages</h1>
+    <p>Fast Delivery • Affordable Prices</p>
+  </header>
+
+  <div class="container">
+
+    <h2>Choose Your Data Bundle</h2>
+
+    <!-- Data Bundle 1 -->
+    <div class="bundle">
+      <h3>1 GB Non-Expiry</h3>
+      <p class="price">GHS 6.00</p>
+      <a class="buy-btn" href="https://wa.me/233XXXXXXXXX?text=I%20want%20to%20buy%201GB%20data">Buy Now</a>
+    </div>
+
+    <!-- Data Bundle 2 -->
+    <div class="bundle">
+      <h3>3 GB Non-Expiry</h3>
+      <p class="price">GHS 15.00</p>
+      <a class="buy-btn" href="https://wa.me/233XXXXXXXXX?text=I%20want%20to%20buy%203GB%20data">Buy Now</a>
+    </div>
+
+    <!-- Data Bundle 3 -->
+    <div class="bundle">
+      <h3>10 GB Non-Expiry</h3>
+      <p class="price">GHS 45.00</p>
+      <a class="buy-btn" href="https://wa.me/233XXXXXXXXX?text=I%20want%20to%20buy%2010GB%20data">Buy Now</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Contact us on WhatsApp: +233XXXXXXXXX</p>
+    <p>© 2026 AMG Biznez Hub</p>
+  </footer>
+
+</body>
+</html>
