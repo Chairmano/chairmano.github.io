@@ -2,38 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Create Account | DataMart</title>
+  <title>Create Account</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial, sans-serif; background:#f4f4f4; }
-    .box {
-      max-width:400px;
-      margin:80px auto;
-      background:#fff;
-      padding:30px;
-      border-radius:8px;
-      box-shadow:0 0 10px rgba(0,0,0,.1);
-    }
-    input, button {
-      width:100%;
-      padding:12px;
-      margin:10px 0;
-    }
-    button {
-      background:#0a7cff;
-      color:#fff;
-      border:none;
-      border-radius:5px;
-      font-size:16px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="box">
+<div class="container">
   <h2>Create Account</h2>
 
-  <form onsubmit="redirectUser(event)">
+  <form>
     <input type="text" placeholder="Full Name" required>
     <input type="email" placeholder="Email Address" required>
     <input type="tel" placeholder="Phone Number" required>
@@ -41,19 +19,11 @@
 
     <button type="submit">Sign Up</button>
   </form>
+
+  <p>Already have an account?
+    <a href="index.html">Login</a>
+  </p>
 </div>
-
-<script>
-  function redirectUser(event) {
-    event.preventDefault();
-
-    // OPTIONAL: fake delay for realism
-    setTimeout(() => {
-      window.location.href =
-      "https://www.cheapdata.shop/shop/amg-biznez-hub-1757507624120";
-    }, 1000);
-  }
-</script>
 
 </body>
 </html>
